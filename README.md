@@ -6,7 +6,7 @@ This repository contains a set of stellar classification data (SDSS17) collected
 
 The data was obtained from Kaggle and can be found at the following link: [Stellar Classification Dataset (SDSS17)](https://www.kaggle.com/datasets/fedesoriano/stellar-classification-dataset-sdss17).
 
-##Goal
+## Goal
 
 The aim of this project is to develop machine learning models to predict the class of celestial objects (stars, galaxies or quasars) based on their spectral characteristics.
 
@@ -20,7 +20,7 @@ An exploratory data analysis (EDA) will be carried out to understand the distrib
 
 Data will be pre-processed to handle missing values, outliers and corrected for categorical variances if necessary. Normalization or standardization of features will also be considered to improve the performance of machine learning models.
 
-###Modeling
+### Modeling
 
 Machine learning models will be trained. Models such as Logistic Regression, K-Nearest Neighbors (KNN), Decision Trees, Random Forest and Gradient Boosting will be evaluated.
 
@@ -38,7 +38,7 @@ The results will be interpreted to understand the importance of the characterist
 
 In astronomy, stellar classification is the classification of stars based on their spectral characteristics. The classification scheme for galaxies, quasars and stars is one of the most fundamental in astronomy. The initial catalog of stars and their distribution in the sky led to the understanding that they make up our own galaxies and, following the distinction that Andromeda was a galaxy separate from our own, numerous galaxies found themselves being cataloged as more powerful telescopes were built. This dataset aims to classify stars, galaxies and quasars based on their spectral characteristics.
 
-###Content
+### Content
 
 The data consists of 100,000 space observations made by SDSS (Sloan Digital Sky Survey). Each observation is described by 17 feature columns and 1 class column that identifies whether it is a star, galaxy or quasar.
 
